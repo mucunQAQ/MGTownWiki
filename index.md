@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "毛怪小镇 玩家手册"
+  name: "毛怪小镇"
   text: ""
-  tagline: 毛怪小镇的玩家手册，爱来自小镇开发组
+  tagline: 毛怪小镇官网兼玩家手册
   actions:
     - theme: brand
       text: 加入QQ群聊
