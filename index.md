@@ -5,7 +5,10 @@ layout: home
 hero:
   name: "毛怪小镇"
   text: ""
-  tagline: 毛怪小镇官网兼玩家手册
+  tagline: Hanser的粉丝们 毛怪 所开发的 Minecraft 服务器
+  image:
+    src: /imgs/logo.png
+    alt: MGTownLogo
   actions:
     - theme: brand
       text: 加入QQ群聊

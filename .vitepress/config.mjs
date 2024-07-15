@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "毛怪小镇",
-  description: "毛怪小镇官网兼玩家手册",
+  description: "Hanser的粉丝们 '毛怪' 所开发的 Minecraft 服务器",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -33,6 +33,10 @@ export default defineConfig({
 
     footer: {
       copyright: 'Copyright © 2021-present MGTown Development Team'
+    },
+
+    sitemap: {
+      hostname: 'https://mgtown.cn'
     }
   }
 })
