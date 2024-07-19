@@ -7,12 +7,12 @@ hero:
   text: ""
   tagline: Hanser的粉丝们 毛怪 所开发的 Minecraft 服务器
   image:
-    src: /imgs/logo.png
+    src: /logo.png
     alt: MGTownLogo
   actions:
     - theme: brand
       text: 加入QQ群聊
-      link: /markdown-examples
+      link: 'https://qm.qq.com/q/JSzjMcoNKq'
     - theme: alt
       text: 打开玩家文档
       link: /player-documentation

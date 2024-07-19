@@ -5,7 +5,8 @@ export default defineConfig({
   title: "毛怪小镇",
   description: "Hanser的粉丝们 '毛怪' 所开发的 Minecraft 服务器",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
+
     nav: [
       { text: '主页', link: '/' },
       { text: '玩家文档', link: '/player-documentation' }
