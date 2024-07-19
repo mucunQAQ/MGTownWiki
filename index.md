@@ -20,9 +20,9 @@ hero:
 features:
   - title: 和谐友爱的玩家社区
     details: 毛怪小镇的毛怪们各个都有才艺，会整活，绝对不会感觉无聊！
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 高性能的服务器
+    details: 毛怪小镇拥有高性能独立主机, 卡顿虽然有, 但是绝对不会影响体验!
+  - title: 完善的文档
+    details: 毛怪小镇拥有完善的玩家文档, 如果有什么插件问题不清楚的话, 可以随时查看文档哦!
 ---
 
