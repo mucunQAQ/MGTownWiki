@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 打开玩家文档
       link: /player-documentation
+    - theme: alt
+      text: 下载老地图
+      link: 'https://pan.baidu.com/s/1d7aHc-ZjOX20Y5BIybLtNg?pwd=3x2r'
 
 features:
   - title: 和谐友爱的玩家社区
