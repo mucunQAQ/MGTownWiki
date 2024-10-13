@@ -2,8 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "zh-CN",
   title: "毛怪小镇",
   description: "Hanser的粉丝们 '毛怪' 所开发的 Minecraft 服务器",
+
+  cleanUrls: true,
+  metaChunk: true,
+  lastUpdated: true,
+
   themeConfig: {
     logo: '/logo.png',
 
@@ -29,16 +35,15 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/MGTown/' },
-      { icon: 'bilibili', link: '' }
+      { icon: 'github', link: 'https://github.com/MGTown/' }
     ],
 
     footer: {
-      copyright: 'Copyright © 2021-present MGTown Development Team'
+      copyright: 'Copyright © 2021-2024 MGTown'
     },
+  },
 
-    sitemap: {
-      hostname: 'https://mgtown.cn'
-    }
+  sitemap: {
+    hostname: 'https://mgtown.cn'
   }
 })
