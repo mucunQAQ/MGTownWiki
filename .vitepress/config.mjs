@@ -1,10 +1,9 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
   title: "毛怪小镇",
-  description: "Hanser的粉丝们 '毛怪' 所开发的 Minecraft 服务器",
+  description: "Hanser的粉丝们 '毛怪' 所开发维护的 Minecraft 服务器",
 
   cleanUrls: true,
   metaChunk: true,
@@ -29,7 +28,19 @@ export default defineConfig({
         text: '插件使用教程',
         items: [
           { text: '如何使用圈地插件', link: '/plugin-usages/residence/basic-usage' },
-          { text: '如何使用CoreProtect插件', link: '/plugin-usages/coreprotect/basic-usage' }
+          { text: '如何使用CoreProtect插件', link: '/plugin-usages/coreprotect/basic-usage' },
+      {
+        text: '更多附魔',
+        collapsed: true,
+        items: [
+          { text: '概述', link: '/plugin-usages/custom-enchants/more-enchants' },
+          { text: '特别说明', link: '/plugin-usages/custom-enchants/special-notes' },
+          { text: '魔咒', link: '/plugin-usages/custom-enchants/magic-enchants' },
+          { text: '附魔', link: '/plugin-usages/custom-enchants/enchants' },
+          { text: '诅咒', link: '/plugin-usages/custom-enchants/curses' },
+          { text: '粒子', link: '/plugin-usages/custom-enchants/particles' }
+        ]
+      }
         ]
       }
     ],
@@ -39,7 +50,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2021-2024 MGTown'
+      copyright: 'Copyright © 2021-2026 MGTown'
     },
   },
 
